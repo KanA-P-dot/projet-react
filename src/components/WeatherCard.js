@@ -1,6 +1,5 @@
-// src/components/WeatherCard.js
 import React from 'react';
-import '../styles/styles.css'; // Chemin corrigé pour le fichier CSS
+import '../styles/styles.css'; 
 
 const WeatherCard = ({ weather }) => {
   return (
