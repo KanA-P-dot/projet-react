@@ -1,0 +1,33 @@
+/* src/styles/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    background: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+  }
+  
+  .weather-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .home, .about, .weather-list {
+    padding: 2em;
+  }
+  
