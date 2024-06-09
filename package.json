@@ -2,18 +2,13 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KanA-P-dot.github.io/porjet-react",
+  "homepage": "https://KanA-P-dot.github.io/projet-react",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "axios": "^1.7.2",
-    "gh-pages": "^6.1.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,11 +18,13 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KanA-P-dot/projet-react.git"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^3.2.3"
   },
   "browserslist": {
     "production": [
@@ -40,13 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KanA-P-dot/project-react.git"
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
-    "gh-pages": "^3.2.3"
   }
 }
